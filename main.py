@@ -115,12 +115,12 @@ print(math.sqrt(25) ==5)
 
 # dictionaries
 # another data structure that stores data that can be unstructured
-# employee = {'first_name': 'steven',
-#             'last_name': 'pretti',
-#              'weight': 37.2,
-#               'size': 5.77
-#              'height:' 6}
-# print(employee['weight'])
+employee = {'first_name': 'steven',
+            'last_name': 'pretti',
+             'weight': 37.2,
+              'size': 5.77,
+             'height': 6}     
+print(employee['weight'])
 
 #challenge 1
 # Create a dictionary called my_dict that stores the following information about a person:
@@ -148,16 +148,17 @@ my_dict = {
 
 #challenge 2
 # Update the information in our dictionary called my_dict (reassigning new values to the keys as appropriate), and add a new key called "country" (without a tilde). The new data is:
+my_dict2 = {
+'name': 'Karen' , 
 
-# name: Karen
+'surname': 'Jurgens' ,
 
-# surname: Jurgens
+'age': 36,
 
-# age: 36
+'occupation' = 'Editor' , 
 
-# occupation: Editor
-
-# country: Colombia
+'country' = 'Colombia'}
+print(my_dict2)
 
 # to do this, you should not change the line of code already written, but update the values using dictionary methods.
 
